@@ -22,7 +22,7 @@ Windows 繁體中文證件照裁切與相紙排版工具。支援點選或拖入
 
 ## 功能
 
-- 固定淺色介面，支援 Windows 深色系統主題。
+- 固定淺色介面。
 - 支援 JPG／JPEG、PNG、AVIF、WebP、BMP、TIFF；標準公開版本不支援 HEIC／HEIF。
 - 點選左側空白裁切區選擇照片，或直接拖入檔案；已有照片時可拖入另一張替換。
 - 縮放 0.25×～5×，自由拖移不受原始照片邊緣限制，空白填入純白。
@@ -72,7 +72,7 @@ py -3.12 -m venv .venv
 
 ## HEIC 版本差異
 
-作者在本機另保留支援 HEIC／HEIF 的 EXE、原始碼與封裝設定，放在被 Git 排除的 `.local/heic/`；這個目錄不會上傳。公開版本沒有 HEIC 解碼器，也不依賴 pillow-heif。
+作者惟在工作電腦另保留支援 HEIC／HEIF 的 EXE、原始碼與封裝設定，放在被 Git 排除的 `.local/heic/`；這個目錄不會上傳。公開版本沒有 HEIC 解碼器，也不依賴 pillow-heif。
 
 需要 HEIC 的使用者可依[自行編譯 HEIC／HEIF 版本](docs/BUILD_HEIC.md)安裝選用套件並修改封裝設定。該選用套件的 Windows wheel 含 GPL 元件，重新散布 HEIC EXE 前須處理額外授權要求。
 
