@@ -1,0 +1,11 @@
+.venv/
+.build/
+.archive/
+.local/
+**/__pycache__/
+release/
+docs/PUBLISH_REVIEW.md
+*.log
+*.pyc
+.env
+.env.*
